@@ -8,7 +8,7 @@ sssmはCodeIgniter4ベースのCMSです。
 
 composerでインストール可能です。
 
-`composer create-project sarah-systems/sssm-installer`
+`composer create-project sarah-systems/sssm-base-installer`
 
 直下のpublicディレクトリがドキュメントルートですので、あなたの環境に合わせてsymlinkを張るなり、renameするなりしてください。
 
