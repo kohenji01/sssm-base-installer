@@ -1,0 +1,40 @@
+{
+	"name": "sarah-systems/sssm-installer",
+	"type": "project",
+	"description": "SarahSystems Simple Site Manager(sssm) core installer",
+	"homepage": "https://www.sarah-sys.co.jp/",
+	"license": "MIT",
+	"require": {
+		"php": ">=7.2",
+		"codeigniter4/framework": "^4",
+		"codeigniter4/translations": "^4@rc",
+		"smarty/smarty": "3.1.*",
+		"smarty-gettext/smarty-gettext": "^1.6",
+		"sarah-systems/sssm-core": "*",
+		"sarah-systems/ci4smarty": "*",
+		"ext-gettext": "^7.3",
+		"ext-intl": "*",
+		"ext-mbstring": "*",
+		"ext-curl": "*",
+		"ext-json": "*"
+	},
+	"require-dev": {
+		"php": ">=7.2",
+		"codeigniter4/framework": "^4",
+		"codeigniter4/translations": "^4@rc",
+		"smarty/smarty": "3.1.*",
+		"smarty-gettext/smarty-gettext": "^1.6",
+		"sarah-systems/sssm-core": "*",
+		"sarah-systems/ci4smarty": "*",
+		"ext-gettext": "^7.3",
+		"ext-intl": "*",
+		"ext-mbstring": "*",
+		"ext-curl": "*",
+		"ext-json": "*"
+	},
+	"scripts": {
+		"post-update-cmd": [
+			"@composer dump-autoload"
+		]
+	}
+}
