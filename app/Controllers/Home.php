@@ -1,12 +1,19 @@
 <?php namespace App\Controllers;
 
-class Home extends BaseController
-{
-	public function index()
-	{
-		return view('welcome_message');
-	}
+use Sssm\Controllers\SssmBaseController;
 
-	//--------------------------------------------------------------------
+class Home extends SssmBaseController
+{
+    
+    public function __construct(){
+        if( !file_exists( WRITEPATH . 'sssm_was_installed' ) ){
+        
+        }
+    }
+    
+    public function index()
+	{
+		return view(__METHOD__,[],[], $this);
+	}
 
 }
