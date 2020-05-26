@@ -1,8 +1,8 @@
 <?php namespace App\Controllers;
 
-use Sssm\Controllers\SssmBaseController;
+use Sssm\Base\Controllers\UserBaseController;
 
-class Home extends SssmBaseController
+class Home extends UserBaseController
 {
     
     public function __construct(){
@@ -13,7 +13,7 @@ class Home extends SssmBaseController
     
     public function index()
 	{
-		return view(__METHOD__,[],[], $this);
+		return $this->view(__METHOD__);
 	}
 
 }
