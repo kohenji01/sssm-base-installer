@@ -4,6 +4,7 @@
 	"description": "SarahSystems Simple Site Manager(sssm) core installer",
 	"homepage": "https://www.sarah-sys.co.jp/",
 	"license": "MIT",
+	"minimum-stability": "dev",
 	"require": {
 		"php": ">=7.2",
 		"codeigniter4/framework": "^4",
