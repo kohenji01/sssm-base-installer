@@ -2,5 +2,3 @@
 
 
 {include "./installer_index.tpl"}
-
-<a href="">{t}Topページ{/t}</a>
