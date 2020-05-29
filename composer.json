@@ -12,6 +12,8 @@
 		"smarty/smarty": "3.1.*",
 		"smarty-gettext/smarty-gettext": "^1.6",
 		"sarah-systems/sssm-base": "dev-master",
+		"sarah-systems/sssm-install": "dev-master",
+		"sarah-systems/sssm-module-installer": "dev-master",
 		"sarah-systems/ci4smarty": "*",
 		"ext-gettext": "^7.3",
 		"ext-intl": "*",
